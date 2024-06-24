@@ -2,10 +2,25 @@
   #style.css
 \*-----------------------------------*/
 
+:root {
+  --background-color: white;
+  --text-color: black;
+}
 
-/**
- * copyright 2022 @codewithsadee
- */
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header, footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 
 
 
